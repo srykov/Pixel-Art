@@ -1,32 +1,30 @@
-$('#sizePicker').submit(function(e){
+$('#sizePicker').submit(function(e) {
 	e.preventDefault();
 	makeGrid();
 });
 
-
-
-function makeGrid(){
+function makeGrid() {
 	//get table element, remove existing rows & cells
-	let table = $('#pixel_canvas');
+	const table = $('#pixel_canvas');
 	table.empty();
 
 	// get size input from form
-	let height = $('#input_height').val();
-	let width = $('#input_width').val();
+	const height = $('#input_height').val();
+	const width = $('#input_width').val();
 
-	//create rows 
+	//create rows
 	for(let i = 0; i < height; i++){
-		let tableRow = $('<tr></tr>');
+		const tableRow = $('<tr></tr>');
 		table.append(tableRow);
 
 		//create cells for each row
 		for(let j = 0; j < width; j++){
-			let cell = $('<td></td>');
+			const cell = $('<td></td>');
 
 			//add event listener to each cell
 			cell.click(function(){
 				//change background
-				$(this).attr('bgcolor', $('#colorPicker').val())
+				$(this).attr('bgcolor', $('#colorPicker').val());
 			});
 
 			//add cell to table row

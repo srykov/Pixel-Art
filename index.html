@@ -2,6 +2,12 @@
 <html>
 <head>
     <title>Pixel Art Maker!</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A fun pixel based art maker.">
+    <meta name="keywords" content="Pixel, Draw, Design, Colors">
+    <meta name="author" content="Sara Rykov">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
     <link rel="stylesheet" href="styles.css">
@@ -11,30 +17,30 @@
     <div class="container">
         <header class="page-header">
             <h1>Lab: Pixel Art Maker</h1>
-        </header>    
+        </header>
 
         <div class="option">
-            <h2>Choose Grid Size</h2>
+            <header><h2>Choose Grid Size</h2></header>
             <form id="sizePicker">
                 <div class="formChoice">
-                    Grid Height:
+                    <label for="height">Grid Height:</label>
                     <input type="number" id="input_height" name="height" min="1" value="1">
                 </div>
-                <div class="formChoice">    
-                    Grid Width:
+                <div class="formChoice">
+                    <label for="width">Grid Width:</label>
                     <input type="number" id="input_width" name="width" min="1" value="1">
-                </div>    
+                </div>
                 <input type="submit" class="button">
             </form>
         </div>
         <div class="option">
-            <h2>Pick A Color</h2>
+            <header><h2>Pick A Color</h2></header>
             <input type="color" id="colorPicker">
         </div>
         <div class="option">
-            <h2>Design Canvas</h2>
+            <header><h2>Design Canvas</h2></header>
             <table id="pixel_canvas"></table>
-        </div>    
+        </div>
     </div>
 
     <script src="designs.js"></script>

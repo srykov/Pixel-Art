@@ -19,9 +19,9 @@ h2:first-of-type {
 
 .container {
     border: 2px solid black;
-    -webkit-box-shadow: 7px 7px 7px -1px rgba(232,225,232,1);
-    -moz-box-shadow: 7px 7px 7px -1px rgba(232,225,232,1);
-    box-shadow: 7px 7px 7px -1px rgba(232,225,232,1);    
+    -webkit-box-shadow: 7px 7px 7px -1px rgba(232, 225, 232, 1);
+    -moz-box-shadow: 7px 7px 7px -1px rgba(232, 225, 232, 1);
+    box-shadow: 7px 7px 7px -1px rgba(232, 225, 232, 1);
     border-radius: 7px;
     margin: 20px;
     max-width: 400px;
@@ -29,9 +29,9 @@ h2:first-of-type {
 
 .option {
     border: 2px solid black;
-    -webkit-box-shadow: 7px 7px 7px -1px rgba(232,225,232,1);
-    -moz-box-shadow: 7px 7px 7px -1px rgba(232,225,232,1);
-    box-shadow: 7px 7px 7px -1px rgba(232,225,232,1);      
+    -webkit-box-shadow: 7px 7px 7px -1px rgba(232, 225, 232, 1);
+    -moz-box-shadow: 7px 7px 7px -1px rgba(232, 225, 232, 1);
+    box-shadow: 7px 7px 7px -1px rgba(232, 225, 232, 1);
     border-radius: 7px;
     margin: 20px;
     padding: 15px;
@@ -68,7 +68,7 @@ input[type=number] {
 
 .button {
     border: 0;
-    border-radius: 3px;
+    border-radius: 4px;
     color: #fff;
     background: #000;
     font-size: 12px;
@@ -76,15 +76,15 @@ input[type=number] {
     line-height: 20px;
     display: inline-block;
     padding: 3px 10px;
-    text-transform: uppercase; 
+    text-transform: uppercase;
 }
-
 
 /*tablet*/
 @media screen and (min-width:413px) and (max-width:769px) {
     .container {
         max-width: 800px;
     }
+
 }
 
 /*desktop*/
