@@ -10,6 +10,12 @@ Specifically I practiced:
 * using jQuery's DOM manipulation and traversal methods
 * declaring functions and attaching them to DOM objects as Event Listeners
 
+## Getting Started
+To try The Pixel Art Maker out:
+* Download the source code
+* Open index.html in your browser.
+* Select grid size & your favorite color. And then start clicking!
+
 ## Contributing
 
 This repository is the finished code for _my_  Pixel Art project. Therefore, I will  most likely will not accept pull requests.
