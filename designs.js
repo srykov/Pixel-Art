@@ -3,6 +3,11 @@ $('#sizePicker').submit(function(e) {
 	makeGrid();
 });
 
+/*
+ * @description Initializes the table, removing any
+ * existing rows/cells, and then re-adding the N rows
+ * and M cells per row.
+ */
 function makeGrid() {
 	//get table element, remove existing rows & cells
 	const table = $('#pixel_canvas');
