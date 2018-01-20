@@ -11,7 +11,10 @@ Specifically I practiced:
 * declaring functions and attaching them to DOM objects as Event Listeners
 
 ## Getting Started
-To try The Pixel Art Maker out:
+You can try the Pixel Maker out here:
+https://srykov.github.io/fend-pixel-art/
+
+Alternatively you can try The Pixel Art Maker out by doing the following:
 * Download the source code
 * Open index.html in your browser.
 * Select grid size & your favorite color. And then start clicking!
